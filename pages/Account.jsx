@@ -1,6 +1,6 @@
 import React from 'react'
 import { MdChevronLeft, MdChevronRight } from 'react-icons/md';
-import SavedShows from '../components/Savedshows';
+import SavedShows from '../components/SavedShows';
 
 
 const Account = () => {
