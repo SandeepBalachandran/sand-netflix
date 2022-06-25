@@ -16,7 +16,7 @@ const Signup = () => {
     try {
       await signUp(email, password)
       console.log(router)
-      router.push('Login')
+      router.push('login')
     } catch (error) {
       console.log(error)
     }
@@ -42,7 +42,7 @@ const Signup = () => {
                   </p>
                   <p>Need Help?</p>
                 </div>
-                <p className='py-4'><span className='text-gray-600'>Already subscribed to Netflix ? </span><Link href='/Login'> Log In</Link></p>
+                <p className='py-4'><span className='text-gray-600'>Already subscribed to Netflix ? </span><Link href='/login'> Log In</Link></p>
               </form>
             </div>
           </div>
