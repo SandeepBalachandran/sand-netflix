@@ -7,7 +7,7 @@ const ProtectedRoute = ({ children }) => {
     const router = useRouter();
     const { user } = UserAuth
     if (!user) {
-        router.push('login')
+        router.push('Login')
     } else {
         return children
     }
