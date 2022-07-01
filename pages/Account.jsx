@@ -3,7 +3,7 @@ import { MdChevronLeft, MdChevronRight } from 'react-icons/md';
 import SavedShows from '../components/SavedShows';
 
 
-const Account = () => {
+const account = () => {
   return (
     <>
       <div className='w-full text-white'>
@@ -21,4 +21,4 @@ const Account = () => {
   )
 }
 
-export default Account
+export default account

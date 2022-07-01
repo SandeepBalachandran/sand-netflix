@@ -3,7 +3,7 @@ import Main from '../components/Main'
 import { Row } from '../components/Row'
 import requests from '../Requests'
 
-function Home() {
+function home() {
   const [movie, setMovie] = useState('');
   const getSelected = (item, id) => setMovie(item)
   return (
@@ -19,4 +19,4 @@ function Home() {
   )
 }
 
-export default Home
+export default home
