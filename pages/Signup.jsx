@@ -4,7 +4,7 @@ import { UserAuth } from '../context/AuthContext'
 import { useRouter } from 'next/router';
 
 
-const signup = () => {
+export default function Signup()  {
   const [email, setEmail] = useState('')
   const [password, setPassword] = useState('')
   const { user, signUp } = UserAuth()
@@ -51,5 +51,3 @@ const signup = () => {
     </>
   )
 }
-
-export default signup

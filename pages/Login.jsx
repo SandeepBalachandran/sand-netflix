@@ -3,7 +3,7 @@ import Link from 'next/link'
 import { UserAuth } from '../context/AuthContext'
 import { useRouter } from 'next/router'
 
-const login = () => {
+export default function Login()  {
   const [email, setEmail] = useState('')
   const [password, setPassword] = useState('')
   const [error, setError] = useState('')
@@ -56,5 +56,3 @@ const login = () => {
     </>
   )
 }
-
-export default login
